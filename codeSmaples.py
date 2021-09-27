@@ -20,7 +20,7 @@ ign_data = pd.read_csv(ign_filepath, index_col="Platform")
 # plt.title("Average Score ffor Racing Games, by Platform")
 # plt.show()
 
-plt.figure(figsize= (10,10)) # Your code here
+plt.figure(figsize= (8,8)) # Your code here
 sns.heatmap(ign_data, annot=True)
 #Add label for horizontal axis
 plt.xlabel("Genre")
